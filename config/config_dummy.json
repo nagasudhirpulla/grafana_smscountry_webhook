@@ -1,0 +1,20 @@
+{
+    "mode": "d",
+    "logFilePath": "app_logs/app_log.log",
+    "backUpCount": 10,
+    "fileRollingHrs": 24,
+    "flaskSecret": "1234",
+    "flaskHost": "localhost",
+    "flaskPort": 80,
+    "persons": {
+        "A": 1234,
+        "B": 1233,
+        "C": 23453,
+        "D": 1234,
+        "E": 3456
+    },
+    "groups": {
+        "it": ["A", "B", "C"],
+        "scada": ["B", "D", "E"]
+    }
+}

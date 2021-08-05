@@ -1,0 +1,13 @@
+{
+    "dashboardId": 1,
+    "evalMatches": [],
+    "message": "Notification regarding NLDC WBES dedicated link down time alert",
+    "orgId": 1,
+    "panelId": 2,
+    "ruleId": 2,
+    "ruleName": "NLDC WBES dedicated link down time alert",
+    "ruleUrl": "http://localhost:3001/d/XbWh35m7z/firewall-summary?tab=alert&viewPanel=2&orgId=1",
+    "state": "alerting",
+    "tags": {},
+    "title": "[Alerting] NLDC WBES dedicated link down time alert"
+}
