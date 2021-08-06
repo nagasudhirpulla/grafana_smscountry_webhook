@@ -52,7 +52,7 @@ class SmsApi:
 
     def sendSmsToGroup(self, grpName: str, message: str) -> bool:
         # check the group name
-        if grpName in self.groups:
+        if not (grpName in self.groups):
             return False
         grpPersons = self.groups[grpName]
         for prsn in grpPersons:

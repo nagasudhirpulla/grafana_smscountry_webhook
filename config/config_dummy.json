@@ -1,5 +1,7 @@
 {
     "mode": "d",
+    "smsUsername": "uname",
+    "smsPassword": "pwd",
     "logFilePath": "app_logs/app_log.log",
     "backUpCount": 10,
     "fileRollingHrs": 24,
