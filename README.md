@@ -1,5 +1,9 @@
 # grafana_smscountry_webhook
 
+## Dependencies
+* python needs to be installed and added in the ```PATH``` environment variable
+* for running the server as a windows background service, then nssm should be installed and added in the ```PATH``` environment variable
+
 ## Server Setup Instructions
 * create config.json in config folder as per the sample config
 * run create_env.bat
