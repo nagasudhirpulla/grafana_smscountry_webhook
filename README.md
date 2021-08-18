@@ -1,5 +1,7 @@
 # grafana_smscountry_webhook
 
+![Architecture](/assets/img/grafana_sms_webhook_architecture.png)
+
 ## Dependencies
 * python needs to be installed and added in the ```PATH``` environment variable
 * for running the server as a windows background service, then nssm should be installed and added in the ```PATH``` environment variable
@@ -16,7 +18,9 @@
 * application logs can be seen in app_logs folder
 * nssm service logs can be seen in logs folder
 
+
 ## Setup user phone numbers in config.json file
+![Persons Phone Number Config](/assets/img/person_config.png)
 * Users phone numbers and user groups can be configured in config.json file
 * The user group name in config.json will be used in grafana webhook url. For example if we have a user group named scada, we can create a grafana webhook channel with the url ```http://localhost:5000/api/send-sms/scada```
 
